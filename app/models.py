@@ -6,7 +6,7 @@ from pydantic import BaseModel
 class EnrollmentResponseModel(BaseModel):
     
     matricNumber: str
-    embeddings: List[List[float]]
+    # embeddings: List[List[float]]
     # embeddings: List[float]
     confidenceScore: float
     model: str = "SFace-2021Dec"
